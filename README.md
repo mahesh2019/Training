@@ -1,1 +1,1 @@
-This gives all the training modules, that was learned from 8/1/2019
+This gives all the training modules, that was learning from 8/1/2019
