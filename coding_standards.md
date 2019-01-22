@@ -1,3 +1,7 @@
+# Defination
+
+In general they are a set of standards and guidelines which should be used when writing the source code for a program.
+
 # What are coding rules and guidelines?
 
 Coding rules and guidelines ensure that software is:
