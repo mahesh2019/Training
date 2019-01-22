@@ -21,25 +21,38 @@ RETURNS return_datatype AS $variable_name$
 
 1.Writing a query to display column names:
 
-select *
-from table_name
-where false;
+select column_name,data_type,is_nullable from information_schema.columns where table_name='company';
 
 
 2.Writing a function to return column names:
 
-create or replace function show_columns()
-returns integer as $total$
-declare total integer;
-begin select * from company where false;
-return total;
+create or replace function col_def()
+returns integer as $col$
+declare 
+col integer;
+begin
+select column_name,data_type,is_nullable from information_schema.columns where table_name='company';
+return col;
+end;
+$def$ language plpgsql;
 
 # Indexes
 
-1.REATE INDEX index_name
-ON table_name (column_name);
+1.SELECT * FROM pg_indexes WHERE tablename = 'mytable';
 
-# Foreign key
+2.Writing a function to return indexes:
+
+create or replace function ind_def()
+returns integer as $ind$
+declare 
+ind integer;
+begin
+SELECT * FROM pg_indexes WHERE tablename = 'company';
+return ind;
+end;
+$def$ language plpgsql;
+
+# Foreign key 
 
 1.Creating first table:
 
@@ -60,6 +73,56 @@ CREATE TABLE DEPARTMENT1(
 );
 
 These two tables are related to each other through reference from id column in COMPANY6.
+
+3.Query to fetch foreign key from the table:
+
+SELECT
+    tc.table_schema, 
+    tc.constraint_name, 
+    tc.table_name, 
+    kcu.column_name, 
+    ccu.table_schema AS foreign_table_schema,
+    ccu.table_name AS foreign_table_name,
+    ccu.column_name AS foreign_column_name 
+FROM 
+    information_schema.table_constraints AS tc 
+    JOIN information_schema.key_column_usage AS kcu
+    ON tc.constraint_name = kcu.constraint_name
+    AND tc.table_schema = kcu.table_schema
+    JOIN information_schema.constraint_column_usage AS ccu
+    ON ccu.constraint_name = tc.constraint_name
+    AND ccu.table_schema = tc.table_schema
+WHERE tc.constraint_type = 'FOREIGN KEY' AND tc.table_name='mytable';
+
+4.Fuction to fetch foreign key:
+
+create or replace function fore_def()
+returns integer as $fore$
+declare 
+fore integer;
+begin
+SELECT
+    tc.table_schema, 
+    tc.constraint_name, 
+    tc.table_name, 
+    kcu.column_name, 
+    ccu.table_schema AS foreign_table_schema,
+    ccu.table_name AS foreign_table_name,
+    ccu.column_name AS foreign_column_name 
+FROM 
+    information_schema.table_constraints AS tc 
+    JOIN information_schema.key_column_usage AS kcu
+    ON tc.constraint_name = kcu.constraint_name
+    AND tc.table_schema = kcu.table_schema
+    JOIN information_schema.constraint_column_usage AS ccu
+    ON ccu.constraint_name = tc.constraint_name
+    AND ccu.table_schema = tc.table_schema
+WHERE tc.constraint_type = 'FOREIGN KEY' AND tc.table_name='dept';
+return fore;
+end;
+$def$ language plpgsql;
+
+# Reference table defination
 
 
 

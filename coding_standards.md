@@ -44,14 +44,19 @@ if (g < 17 && h < 22 || i < 60) { return true; } else {System.out.println (“in
 Type 2
 
 if (g < 17 && h < 22 ||  i < 60) 
+
 {
  	return true; 
 }
+
  else 
+
 { 
+
 	System.out.println(“incorrect”);
 	
 	return false; 
+
 } 
 
 
@@ -70,36 +75,57 @@ This is another area which is almost always included in coding standards. Variab
 Type 1
 
 if(a < h && z < o && t < e)
+
   {
+
       return true;
+
   }
+
   else
+
     {
+
         return false;
+
     }
     
 Type 2
 
 if (anil < harish && zain < oakly && tony < eminem)
+
  {
+
       return true;
+
  }
+
   else
+
     {
+
         return false;
+
     }
     
 4.Use of Braces
 
 In some languages, braces are used to delimit the bodies of conditional statements, control constructs, and blocks of scope. Programmers shall use either of the following bracing styles:
+
 for (int j = 0 ; j < max_iterations ; ++j)
+
 {
+
  /* Some work is done here. */
+
 }
+
 or the Kernighan and Ritchie style:
+
 for ( int j = 0 ; j < max_iterations ; ++j ) {
 
  /* Some work is done here. */
+
 } 
 
 5.Structured Programming
