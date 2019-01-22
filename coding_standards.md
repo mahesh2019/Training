@@ -46,12 +46,14 @@ Type 2
 if (g < 17 && h < 22 ||  i < 60) 
 
 {
+
  	return true; 
+
 }
 
  else 
 
-{ 
+{
 
 	System.out.println(“incorrect”);
 	
@@ -66,6 +68,7 @@ Comments should clearly demonstrate the function of the code, not only to other 
 Comments should also not be too long. If your code has followed a coding standard, it should not be too difficult for developers to understand your code. Long comments are often unnecessary and make your code look messy.
 
 #It will add one column to the database
+
 def AddData()
 
 3.Variable declarations.
