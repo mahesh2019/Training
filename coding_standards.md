@@ -6,17 +6,17 @@ In general they are a set of standards and guidelines which should be used when 
 
 Coding rules and guidelines ensure that software is:
 
-Safe: It can be used without causing harm.
+- Safe: It can be used without causing harm.
 
-Secure: It can’t be hacked.
+- Secure: It can’t be hacked.
 
-Reliable: It functions as it should, every time.
+- Reliable: It functions as it should, every time.
 
-Testable: It can be tested at the code level.
+- Testable: It can be tested at the code level.
 
-Maintainable: It can be maintained, even as your codebase grows.
+- Maintainable: It can be maintained, even as your codebase grows.
 
-Portable: It works the same in every environment.
+- Portable: It works the same in every environment.
 
 # Why coding standards are important
 
@@ -26,13 +26,13 @@ Every development team should use a coding standard. Even the most experienced d
 
 There are four main drivers for using a coding standard:
 
-Compliance with industry standards (e.g., ISO).
+- Compliance with industry standards (e.g., ISO).
 
-Consistent code quality — no matter who writes the code.
+- Consistent code quality — no matter who writes the code.
 
-Software security from the start.
+- Software security from the start.
 
-Reduced development costs and accelerated time to market.
+- Reduced development costs and accelerated time to market.
 
 # Examples
 
