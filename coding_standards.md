@@ -3,10 +3,15 @@
 Coding rules and guidelines ensure that software is:
 
 Safe: It can be used without causing harm.
+
 Secure: It can’t be hacked.
+
 Reliable: It functions as it should, every time.
+
 Testable: It can be tested at the code level.
+
 Maintainable: It can be maintained, even as your codebase grows.
+
 Portable: It works the same in every environment.
 
 # Why coding standards are important
