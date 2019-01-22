@@ -1,4 +1,4 @@
-# Defination
+# Definition
 
 In general they are a set of standards and guidelines which should be used when writing the source code for a program.
 
