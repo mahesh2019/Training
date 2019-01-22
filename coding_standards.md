@@ -27,8 +27,11 @@ Every development team should use a coding standard. Even the most experienced d
 There are four main drivers for using a coding standard:
 
 Compliance with industry standards (e.g., ISO).
+
 Consistent code quality — no matter who writes the code.
+
 Software security from the start.
+
 Reduced development costs and accelerated time to market.
 
 # Examples
