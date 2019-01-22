@@ -1,4 +1,4 @@
-# what Are Coding Rules and Guidelines?
+# What are coding rules and guidelines?
 
 Coding rules and guidelines ensure that software is:
 
@@ -9,7 +9,7 @@ Testable: It can be tested at the code level.
 Maintainable: It can be maintained, even as your codebase grows.
 Portable: It works the same in every environment.
 
-# why Coding Standards Are Important
+# Why coding standards are important
 
 Coding standards are important for safety, security, and reliability.
 
