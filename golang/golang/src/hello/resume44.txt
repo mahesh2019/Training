@@ -1,0 +1,81 @@
+Name:Mahesh Konakalla
+email:konakalla.satyamahesh@gmail.com
+PhNo:+91 9566191858
+
+CAREER OBJECTIVE
+A hard working motivated M-Tech Software Engineering student looking to apply solid
+knowledge and build on skills developed from previous experience. Pro-active, keen to learning,
+and wishing to make positive contribution to the organization with which I will be working.
+EDUCATION
+
+2013-18
+
+VIT University, Chennai
+
+8.04/10
+
+M-Tech Software Engineering
+2013
+
+SRI CHAITANYA JR COLLEGE
+
+91.4%
+
+12th grade (Senior Secondary Education)
+2011
+
+APOLLO ENGLISH MEDIUM SCHOOL
+10th grade (Secondary Education)
+
+TECHNICAL SKILLS
+
+Languages
+
+C, Java, Java Script, PHP
+
+Web Technologies
+
+HTML, CSS, RESTful API, AWS
+
+Database
+
+SQL
+
+Testing Tools
+
+Selenium, IBM functional, Performance and Load Tester
+
+84.83%
+
+ACADEMIC PROJECTS
+
+Title: Generating High Profit Item Sets
+Technology/Languages: Java
+Description: The application is about making business profitable by generating high profit
+item-sets using HUI Miner Algorithm.
+Title: Just4Stay
+Technology/Languages: HTML, MySQL, PHP
+Description: A web application that allows the customers to manage the hotel reservations
+and payments.
+Title: Blood Bank
+Technology/Languages: HTML, MySQL, PHP
+Description: A web application for connecting blood donors with hospitals and patients.
+Title: Smart Cart
+Platform: IoT
+Description: Smart cart is IoT application which allows for self-checkout of items in stores. Items
+added to cart can be managed by application.
+AREAS OF INTEREST
+
+Web Development
+Software Testing
+IoT
+Cyber Security
+
+EXTRA CURRICULAR ACTIVITIES
+
+Member of NSS club, VIT Chennai.
+One of the key organizers of Android Amaze (hackathon), VIT Chennai.
+Organized Mini Militia game competition in TecnoVIT’16.
+Organized Quiz Up game competition in TechnoVIT’17.
+
+
