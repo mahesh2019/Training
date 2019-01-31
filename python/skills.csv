@@ -1,10 +1,10 @@
-skill,name
-c++,mahesh
-java,dinesh
-python,rakesh
-sql,satya
-oracle,sai
-mysql,bharath
-ruby,akhil
-go lang,gopi
-c,jeevan
+id,skill
+2,c++
+3,java
+4,python
+5,sql
+6,oracle
+7,mysql
+8,ruby
+9,go lang
+10,c
