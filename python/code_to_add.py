@@ -1,9 +1,9 @@
 from neo4j.v1 import GraphDatabase
-uri             = "bolt://localhost:7687"
+uri             = "bolt://172.17.2.109:7687"
 
 userName        = "neo4j"
 
-password        = "mahesh@1994"
+password        = "PILLOWS112012;"
 
 graphDB_Driver  = GraphDatabase.driver(uri, auth=(userName, password)) 
 
