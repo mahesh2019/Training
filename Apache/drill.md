@@ -31,5 +31,25 @@ Issue the following command when you want to exit the Drill shell:
 
 - !quit
 
+#### Querying HDFS using apache drill
+##### Create a folder in dfs:
+- hadoop fs -mkdir /external
+
+##### Send the data from local to dfs:
+- hadoop fs -put /home/mahesh/Desktop/maddy.csv/ /external/maddy.csv
+
+##### Next, open your browser and type localhost:8047 to go into Drill’s Web UI. Now, click on ‘Storage’ and enable ‘dfs’ and click on ‘Update’.
+##### Now, in the configurations, add the port of your of your HDFS location. 
+- Give connection= hdfs://localhost:54310
+
+##### Now, open the terminal in which Drill is running and type use dfs to change the storage location to HDFS.
+##### Now we can query the files in HDFS using Drill.
+- select * from dfs.`maddy.csv` limit 10;
+
+### Useful Links
+https://acadgild.com/blog/querying-hdfs-using-apache-drill
+
+
+
 
 
