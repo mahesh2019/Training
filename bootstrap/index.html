@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>SQRify</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet"  href="css/style.css">
+ <link href = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/rainbow.min.css' rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navcolor">
+ <div class="container-fluid">
+   <ul class="nav navbar-nav">
+     <li class="active"><img src="/home/maheshk/bootstrap/images/logo.png" alt=""></li>
+     <li><a class="tit" href="#">SQR FILES</a></li>   
+   </ul>
+   <form class="navbar-form navbar-right" action="/action_page.php">
+     <div class="form-group">
+       <input type="text" class="form-control" placeholder="Search" name="search">
+     </div>
+   </form>
+ </div>
+</nav>
+<nav class="navbar secnav">
+ <a class="navbar-brand"href="#">
+   <span class="glyphicon glyphicon-home menutype"> Home</span>
+ </a>
+ <a class="navbar-brand"href="#">
+   <span class="glyphicon glyphicon-list menutype"> Order</span>
+ </a>
+<a class="navbar-brand"href="#">
+   <span class=" glyphicon glyphicon-question-sign menutype float-right"> Help</span>
+ </a>
+ <a class="navbar-brand"href="#">
+   <span class="glyphicon glyphicon-log-out float-right menutype"> Login</span>
+ </a>
+</nav>
+<div class="row col-lg-12" style="margin-top: -20px">
+ <div class="col-lg-2 border border-secondary links">
+ <a href="">Page1</a>
+ <a href="">Page2</a>
+ <a href="">Page3</a>
+ <a href="">Page4</a>
+ </div>
+<div class="col-lg-8 content">  
+
+
+<div id="page-content-wrapper">
+
+      <h3> Check here</h3>
+      <div class="container-fluid">
+        <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Serial No</th>
+      <th scope="col">File Name</th>
+      <th scope="col">File Location</th>
+      <th scope="col">Take It</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>man.sqr</td>
+      <td>iman.sqr</td>
+      <td><button>Download</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>system.sqr</td>
+      <td>brand.sqr</td>
+      <td><button>Download</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry.sqr</td>
+      <td>Vindisel.sqr</td>
+      <td><button>Download</button></td>
+  </tbody>
+</table>
+      </div>
+    </div>
+
+
+</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+   var height1 = $('.content').height()
+   var height2 = $('body').height()
+   if (height1 > height2) {
+       $('.links').height(window.outerHeight)
+         $('.content').height(window.outerHeight)
+   } else {
+       $('.links').height(window.outerHeight)
+       $('.content').height(window.outerHeight)
+   }
+});
+
+</script>
+
+</body>
+</html>
